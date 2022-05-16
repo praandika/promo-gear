@@ -3,19 +3,19 @@ function cekLink(){
     document.getElementById("link").innerHTML = pathName;
     if (pathName == '/1/') {
         // RINI
-        document.getElementById("wa").href = "https://api.whatsapp.com/send?phone=6285857458292&text=Halo%20Kak%20Rini%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/1/)";
+        document.getElementById("wa").innerHTML = `<a href="https://api.whatsapp.com/send?phone=6285857458292&text=Halo%20Kak%20Rini%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/1/)" class="pulse" id="wa"><i class="fa-brands fa-whatsapp"></i> <br> WA CS DISINI</a>`;
     } else if (pathName == '/2/'){
         // DIAH
-        document.getElementById("wa").href = "https://api.whatsapp.com/send?phone=628999309098&text=Halo%20Kak%20Diah%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/2/)";
+        document.getElementById("wa").innerHTML = `<a href="https://api.whatsapp.com/send?phone=628999309098&text=Halo%20Kak%20Diah%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/2/)" class="pulse" id="wa"><i class="fa-brands fa-whatsapp"></i> <br> WA CS DISINI</a>`;
     } else if (pathName == '/3/'){
         // BAYU
-        document.getElementById("wa").href = "https://api.whatsapp.com/send?phone=6285739531894&text=Halo%20Kak%20Bayu%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/3/)";
+        document.getElementById("wa").innerHTML = `<a href="https://api.whatsapp.com/send?phone=6285739531894&text=Halo%20Kak%20Bayu%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/3/)" class="pulse" id="wa"><i class="fa-brands fa-whatsapp"></i> <br> WA CS DISINI</a>`;
     } else if (pathName == '/4/'){
         // DELLA
-        document.getElementById("wa").href = "https://api.whatsapp.com/send?phone=6285646834734&text=Halo%20Kak%20Della%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/4/)";
+        document.getElementById("wa").innerHTML = `<a href="https://api.whatsapp.com/send?phone=6285646834734&text=Halo%20Kak%20Della%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/4/)" class="pulse" id="wa"><i class="fa-brands fa-whatsapp"></i> <br> WA CS DISINI</a>`;
     } else if (pathName == '/5/'){
         // YOGI
-        document.getElementById("wa").href = "https://api.whatsapp.com/send?phone=6281558933592&text=Halo%20Kak%20Yogi%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/5/)";
+        document.getElementById("wa").innerHTML = `<a href="https://api.whatsapp.com/send?phone=6281558933592&text=Halo%20Kak%20Yogi%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/5/)" class="pulse" id="wa"><i class="fa-brands fa-whatsapp"></i> <br> WA CS DISINI</a>`;
     } else if (pathName == '/6/'){
         // HANIF
         document.getElementById("wa").href = "https://api.whatsapp.com/send?phone=6287861186070&text=Halo%20Kak%20Hanif%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/6/)";
