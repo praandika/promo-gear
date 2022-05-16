@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
 	padding: 0;
     overflow-x: hidden;
@@ -5,7 +9,6 @@ body{
 }
 
 .container{
-    border: 1px solid black;
     padding: 0;
 }
 
@@ -36,7 +39,14 @@ h3{
     font-weight: bold;
 }
 
+.pulse:hover{
+    color: white;
+    font-size: 22px;
+    background: #22a248;
+}
+
 .pulse {
+    border-radius: 20px;
     margin: 0 auto;
     margin-bottom: 50px;
     text-align: center;
