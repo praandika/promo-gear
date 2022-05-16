@@ -1,0 +1,1 @@
+document.getElementById("link").innerHTML = "link : " +window.location.pathname;
