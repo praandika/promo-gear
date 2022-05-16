@@ -50,6 +50,6 @@ if (pathName == '/1/') {
     document.getElementById("wa").appendChild(button);
 
 } else {
-    let button = document.write(`<a href="https://yamahabismamandiri/our-sales" class="pulse" id="wa"><i class="fa-brands fa-whatsapp"></i> <br> WA CS DISINI</a>`);
+    let button = document.write(`<a href="https://yamahabismamandiri.com/our-sales" class="pulse" id="wa"><i class="fa-brands fa-whatsapp"></i> <br> WA CS DISINI</a>`);
     document.getElementById("wa").appendChild(button)
 }
