@@ -9,7 +9,8 @@ if (pathName == '/1/') {
     document.getElementById("wa").appendChild(button)
 } else if (pathName == '/3/') {
     // BAYU
-    document.getElementById("wa").write(`<a href="https://api.whatsapp.com/send?phone=6285739531894&text=Halo%20Kak%20Bayu%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/3/)" class="pulse" id="wa"><i class="fa-brands fa-whatsapp"></i> <br> WA CS DISINI</a>`);
+    let button = document.write(`<a href="https://api.whatsapp.com/send?phone=6285739531894&text=Halo%20Kak%20Bayu%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/3/)" class="pulse" id="wa"><i class="fa-brands fa-whatsapp"></i> <br> WA CS DISINI</a>`);
+    document.getElementById("wa").appendChild(button)
 } else if (pathName == '/4/') {
     // DELLA
     document.getElementById("wa").write(`<a href="https://api.whatsapp.com/send?phone=6285646834734&text=Halo%20Kak%20Della%2C%20saya%20dapat%20iklan%20dari%20website%2C%20mau%20tanya%20harga%20terbaru%20Yamaha%20Gear%20(https://gear125.yamahabismamandiri.com/4/)" class="pulse" id="wa"><i class="fa-brands fa-whatsapp"></i> <br> WA CS DISINI</a>`);
